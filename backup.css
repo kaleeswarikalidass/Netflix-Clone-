@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cover-1{
+    background-image: linear-gradient(transparent,rgb(0, 0, 0)),url(./images/cover-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 80rem;
+    height:40rem;
+}
+
+.fa-globe{
+    margin-left: 10px;
+}
+.dropdown{
+    width:10%;
+    height:50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 44rem;
+
+}
+.language-button.active {
+    background-color: white;
+    color: black;
+}
+.function{
+   
+    height:100%;
+}
+/* .dropdown-1{
+    width:80%;
+    height:60%;
+} */
+.form-select{
+    width:120px;
+    margin-left: 50rem;
+   
+}
+.content-unlimited{
+font-size:3rem;
+margin-top: 9.5rem;
+}
+.email-1{
+    width:400px;
+    height:60px;
+
+}
+.get-started{
+    width:220px;
+    height:60px;
+    font-size: 30px;
+}
+.brand{
+    font-size: 40px;
+    margin-left:20px;
+}
+.content{
+    background-color: rgb(7, 4, 4);
+    padding:5rem;
+}
+
+@media  screen and (max-width:600px){
+    .text-white{
+        margin-left: 1rem;
+        border:2px solid brown;
+        width:15rem;
+        margin-left:10rem;
+        padding:2rem;
+   
+    }
+}
+
+.content > div{
+    /* width:8rem;
+    height:2rem; */
+    /* border:2px solid red; */
+}
+
+@media screen and (max-width:600px){
+    .first-para-one{
+        width:15rem;
+        height:10rem;
+        border:2px solid red;
+        margin : 2px 2px;
+       
+    }
+   
+}
+
+
+.dark{
+    background-color: rgb(7, 4, 4);
+
+}
+.boxes{
+    height:80px;
+    padding-top: 25px;
+    padding-left:20px ;
+    font-size: 1.5rem;
+    background-color: rgb(51, 50, 50);
+    padding-right: 20px;
+}
+ /* .first-video{
+    position:relative;
+    width:80%;
+    height:80%;
+
+   
+   
+   
+}
+.first-video > img{
+    width:80%;
+    height:80%;
+    position:relative;
+    z-index:1;
+
+}
+.first-video > img{
+    position: absolute;
+}
+.looping{
+    width:70%;
+    height: 80%;
+   
+
+} */
+.first-video{
+    position:relative;
+    width:100%;
+    height:80%;
+   
+
+}
+.first-video>img{
+    position:relative;
+    width:70%;
+    height:100%;
+    z-index:1;
+
+}
+.first-video>video{
+    position:absolute;
+    width:50%;
+    height:60%;
+    top: 50px;
+    left: 65px;
+
+
+}
+
+.control-submobile-2{
+    border:2px solid brown;
+    width:100%;
+    height:90%;
+    border-radius: 20px;
+}
+.mobile{
+    width:50%;
+    height:40%;
+    /* position:relative; */
+}
+.mobile > img{
+    position:relative;
+    z-index:1;
+}
+/* .mobile > section{
+    position:absolute;
+    display: flex;
+    left:80px;
+    justify-content: center;
+border:2px solid burlywood;
+} */
+.stranger-box{
+    width:20%;
+    height:80%;
+}
+.author{
+    position:relative;
+}
+.author > img{
+    position:relative;
+    z-index: 1;
+    height:100%;
+}
+.author > video{
+    position:absolute;
+    right:140px;
+    height:50%;
+    top:10%;
+    width:82%;
+    left:7%;
+
+}
+
+/* .text-center{
+    margin-right: 5px;
+} */
+.content-stranger{
+    width:80%;
+    height:100%;
+    font-size:10px;
+}
+.content-stranger >h5{
+    width:100%;
+    height:50%;
+    margin-bottom: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gif{
+    width:30%;
+    height:70%;
+    margin-bottom: 30px;
+}
+.gif > img{
+    width:70%;
+    height:100%;
+}
+.stranger-box >img{
+    width:100%;
+    height:100%;
+}
+
+.box-color{
+    background-color:black;
+    width:100%;
+    height:30%;
+}
+.btn-color {
+    background-color: gray;
+    width:100%;
+    height:100%;
+}
+.out-color{
+    background-color: black;
+    width:100%;
+    height:30%;
+}
+.mark{
+    border-bottom: 20px solid white;
+}
+.hyper>a{
+    display: block;
+}
+.question{
+    margin-left: 10rem;
+}
+
+.world{
+    margin-left: 10rem;
+    margin-top: 2rem;
+    width:15%;
+
+}
+.entier-box {
+    border:2px solid white;
+    width:90%;
+    height:100%;
+}
+.color-change{
+    background-color: black;
+}
+.color-white{
+    color: white;
+}
+
